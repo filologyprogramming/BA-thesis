@@ -117,6 +117,7 @@ schwa_deletion_n_d %>% select(Text, Target.CMU_dictionary_stress) %>%
                                  ".. AH0 R|.. AH0 L|.. AH0 N")) %>% 
   View()
 
+# Get sounds
 open_vowels <- c("AA[012]", "AE[012]", "AO[012]", "AO[012]")
 close_vowels <- c("EH[012]", "UH[012]", "UW[012]", "IY[012]", "IH[012]")
 glides <- c("W", "Y")
